@@ -1,0 +1,21 @@
+Programación Reactiva
+
+Programación Reactiva La programación reactiva es un enfoque innovador que ha transformado la forma en que se desarrollan aplicaciones móviles y web en la actualidad.
+Se fundamenta en el principio de que las aplicaciones deben ser altamente responsivas y capaces de adaptarse dinámicamente a los cambios en los flujos de datos y eventos en tiempo real.
+Principios Básicos En lugar de seguir una secuencia lineal de instrucciones, las aplicaciones reactivas están diseñadas para responder de manera inmediata a los eventos que ocurren en tiempo real.
+Esto se logra mediante el uso de flujos de datos y la propagación automática de los cambios en el sistema.
+La programación reactiva se basa en el uso de observables y flujos de datos.
+Un observable es una secuencia de eventos que se pueden observar a medida que ocurren.
+Componentes Clave Observables Los observables son esenciales en la programación reactiva, ya que representan secuencias de eventos que pueden ser consumidas por otros componentes de la aplicación.
+Estos eventos pueden incluir desde clics de usuario hasta cambios en datos provenientes de una fuente externa.
+Flujos de Datos Los flujos de datos permiten la transmisión continua de información entre diferentes partes de la aplicación.
+La capacidad de propagar automáticamente los cambios a través de estos flujos facilita la sincronización de datos y la actualización instantánea de la interfaz de usuario.
+
+
+Fuentes de información:
+
+https://keepcoding.io/blog/que-es-la-programacion-reactiva/
+https://platzi.com/blog/programacion-reactiva/
+https://slashmobility.com/blog/2019/09/programacion-reactiva/
+https://adictec.com/que-es-programacion-reactiva/
+https://spiegato.com/es/que-es-la-programacion-reactiva
