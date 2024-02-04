@@ -1,0 +1,17 @@
+Existen varios frameworks y librerías que facilitan la implementación de la programación reactiva.
+A continuación algunos ejemplos.
+
+Akka:
+Es un toolkit y runtime para crear aplicaciones concurrentes y distribuidas.
+Akka soporta múltiples patrones de programación reactiva, incluyendo el modelo de actores.
+
+Play Framework:
+Es un framework de alto rendimiento que sigue el patrón MVC (Modelo-Vista-Controlador) y facilita el desarrollo de aplicaciones web reactivas.
+
+Scala.react:
+Es una biblioteca que implementa la programación reactiva funcional en Scala.
+
+ReactiveX (RX):
+Es un conjunto de librerías que implementan la programación reactiva en diferentes lenguajes como Java (con RXJava), JavaScript (con ERJS), C# (con RX.Net), Scala (con EXScala), Kotlin (con RXKotlin), Swift (con RXSwift), Dart (con RXDart), entre otros.
+
+Cada uno de estos frameworks y librerías tiene sus propias características y ventajas, por lo que la elección de uno u otro dependerá de tus necesidades específicas y del lenguaje de programación que estemos utilizando.
