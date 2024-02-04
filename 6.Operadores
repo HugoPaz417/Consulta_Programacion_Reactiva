@@ -1,0 +1,32 @@
+En la programación reactiva, los operadores juegan un papel crucial.
+
+Son funciones que nos permiten manipular y transformar los flujos de datos.
+
+Con los operadores, podemos realizar diversas operaciones como filtrar, mapear, reducir, entre otras, sobre los flujos de datos.
+
+A continuación, presentaremos algunos de los operadores más comunes utilizados en la programación reactiva, junto con ejemplos de su uso:
+
+map: Este operador aplica una función a cada elemento emitido por el flujo de datos.
+
+Por ejemplo, si tienes un flujo de números y quieres obtener su cuadrado, podrías usar el operador map de la siguiente manera:
+val numeros = Observable.just(1, 2, 3, 4, 5) val cuadrados = numeros.map(n => n * n)
+
+filter: Este operador emite solo los valores del flujo de datos que cumplen con una condición específica.
+
+Por ejemplo, si quieres filtrar los números pares de un flujo de números, podrías usar el operador filter así: Scala
+val numeros = Observable.just(1, 2, 3, 4, 5) val pares = numeros.filter(n => n % 2 == 0)
+
+reduce: Este operador combina todos los valores emitidos por el flujo de datos utilizando una función acumuladora.
+
+Por ejemplo, si quieres sumar todos los números de un flujo, podrías usar el operador reduce de la siguiente manera:
+val numeros = Observable.just(1, 2, 3, 4, 5) val suma = numeros.reduce((n1, n2) => n1 + n2)
+
+takeUntil: Este operador permite cancelar operaciones en caso de que ocurra un evento determinado.
+
+Por ejemplo, si tienes un flujo de números y quieres tomar solo los números hasta que se emita un número mayor que 3, podrías usar el operador takeUntil así:
+val numeros = Observable.just(1, 2, 3, 4, 5) val hasta3 = numeros.takeUntil(n => n > 3)
+
+pipe: Este operador permite generar una cadena de operadores que se pueden enlazar uno tras otro.
+
+Por ejemplo, si quieres transformar un flujo de números a su cuadrado y luego filtrar los que son mayores que 10, podrías usar el operador pipe de la siguiente manera:
+val numeros = Observable.just(1, 2, 3, 4, 5) val transformados = numeros.pipe( map(n => n * n), filter(n => n > 10) )
