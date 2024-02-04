@@ -1,0 +1,19 @@
+El Manifiesto Reactivo es un documento que define los principios fundamentales de la programación reactiva.
+Fue publicado en 2014 por un grupo de desarrolladores liderado por Jonas Boner.
+
+Este manifiesto establece que los sistemas deben ser:
+
+Responsivos:
+El sistema responde a tiempo en la medida de lo posible.
+La responsividad es la piedra angular de la usabilidad y la utilidad.
+
+Resilientes:
+El sistema permanece responsivo frente a fallos.
+La resiliencia se logra mediante replicación, contención, aislamiento y delegación.
+
+Elásticos:
+El sistema se mantiene responsivo bajo variaciones de carga.
+Los sistemas reactivos pueden reaccionar a cambios en la tasa de entrada aumentando o disminuyendo los recursos asignados para atender estas entradas.
+
+Orientados a Mensajes:
+Los sistemas reactivos confían en el intercambio de mensajes asíncronos para establecer límites entre componentes, garantizando un acoplamiento débil, aislamiento, ubicuidad y la delegación.
