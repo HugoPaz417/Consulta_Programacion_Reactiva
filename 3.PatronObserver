@@ -1,0 +1,14 @@
+Explicación del Patrón Observer
+
+El patrón Observer, también conocido como patrón Observador, es uno de los patrones de diseño de software más populares.
+Este patrón establece una relación de dependencia uno a muchos entre objetos, de manera que cuando un objeto cambia su estado, todos los objetos que dependen de él son notificados y actualizados automáticamente.
+
+El patrón Observer se compone de dos tipos de actores:
+
+Sujeto:
+Es el objeto cuyo estado se desea monitorear.
+Este objeto mantiene una lista de observadores y notifica a estos observadores cuando cambia su estado.
+
+Observadores:
+Son los objetos que desean ser notificados cuando cambia el estado del sujeto.
+Cada observador implementa una interfaz o clase abstracta que define un método de actualización.
