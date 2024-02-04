@@ -1,0 +1,37 @@
+Ventajas:
+
+Mejora la capacidad de respuesta:
+Permite una comunicación más eficiente y una gestión óptima de los datos, lo que se traduce en una mayor capacidad de respuesta de las aplicaciones.
+
+Escalabilidad:
+Se adapta bien a entornos con demandas cambiantes y alta concurrencia.
+Permite escalar verticalmente agregando más recursos a una sola máquina o escalar horizontalmente distribuyendo la carga entre varios servidores.
+
+Mayor modularidad y reutilización de código:
+Se basa en componentes independientes y desacoplados, lo que facilita la reutilización de código y la implementación de cambios en partes específicas de una aplicación sin afectar al resto.
+
+Menor consumo de recursos:
+Gracias a la gestión eficiente de los flujos de datos, minimiza el consumo de recursos del sistema.
+
+Facilita el desarrollo de aplicaciones en tiempo real:
+Se enfoca en la capacidad de respuesta inmediata ante eventos y cambios en los datos.
+Esto la convierte en una elección natural para el desarrollo de aplicaciones en tiempo real.
+
+
+
+Desventajas:
+
+Curva de aprendizaje:
+Puede requerir un proceso de aprendizaje más prolongado y complejo en comparación con otros enfoques de desarrollo.
+
+Complejidad del código:
+El código puede ser más complejo debido a la naturaleza asincrónica y orientada a eventos de la programación reactiva.
+
+Mayor consumo de memoria:
+Aunque minimiza el consumo de otros recursos del sistema, puede resultar en un mayor consumo de memoria.
+
+Necesidad de herramientas y librerías específicas:
+Los desarrolladores deben familiarizarse con nuevas herramientas y librerías específicas.
+
+Mayor complejidad de depuración:
+La depuración de código reactivo puede ser más compleja debido a su naturaleza asincrónica.
